@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#hello_page {
+    margin: 30px;
+    width: auto;
+    text-align: center;
+}
+
+#hello_page h1 {
+    margin-bottom: 1em;
+    color: #333;
+}
+
+#hello_page img {
+    max-width: 100%;
+}

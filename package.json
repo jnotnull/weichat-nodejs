@@ -1,0 +1,22 @@
+{
+  "name": "weichat",
+  "version": "0.0.1-dev",
+  "description": "study weichat develop",
+  "main": "app.js",
+  "scripts": {
+    "test": "grunt test",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "weichat"
+  ],
+  "author": "zhang",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^1.5.2",
+    "express": "^4.13.4",
+    "express-handlebars": "^3.0.0",
+    "express-xml-bodyparser": "^0.3.0",
+    "request": "^2.69.0"
+  }
+}
