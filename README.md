@@ -15,21 +15,21 @@ weichat-nodejs
 
 ###服务器
 
-####自己的服务器
+####个人服务器
 自己随意处理,只是注意微信必须使用 `80` 端口
 
-####百度bae
+####百度BAE
 
 1. 注册, 注册的时候需要上传身份证的正面和背面
 2. 创建一个 BAE 基础版(最低配置只需要2角钱一天)
-3. 复制 BAE 的地址上传即可(端口必须是 18080)
+3. 复制 BAE 的 git 地址上传即可(端口必须是 18080)
 
 ####ngrok
 
 在网上下载一个 ngrok 并运行,把生成的链接地址填入测试帐号页面即可
 
 ###测试帐号
-1. [申请测试貼](http://mp.weixin.qq.com/debug/cgi-bin/sandbox?t=sandbox/login)
+1. [申请测试帐号](http://mp.weixin.qq.com/debug/cgi-bin/sandbox?t=sandbox/login)
 2. 将接口配置的 URL 填写为你自己的服务器地址
 3. 填入 token
 
