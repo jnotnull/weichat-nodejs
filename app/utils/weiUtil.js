@@ -1,9 +1,10 @@
-var weichatConfig = require("../../config/weichat_config");
+var weichatConfig = require("../../config/weichat_config"),
+    AccessToken = require("../model/AccessToken");
 
 module.exports = {
     buildAccessUrl: function(suffixUrl) {
         var url = weichatConfig.url.baseUrl + suffixUrl;
-        url = url + "?access_token=" + weichatConfig.accessToken;
+        url = url + "?access_token=" + AccessToken.getAccessToken();
         return url;
     },
 

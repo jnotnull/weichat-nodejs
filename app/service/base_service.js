@@ -30,10 +30,6 @@ function getAccessToken(callback) {
 
     request({url: accessUrl, qs: queryArg}, function(error, response, body) {
         body = JSON.parse(body);
-        if (!error && body.access_token) {
-            // 临时保存到 weichatConfig 中
-            weichatConfig.accessToken = body.access_token;
-        }
         callback(error, body);
     });
 }
